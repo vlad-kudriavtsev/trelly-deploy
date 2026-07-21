@@ -1,0 +1,38 @@
+.task {
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  width: 300px;
+  cursor: pointer;
+}
+
+.priority-0 {
+    background: #ffffff;
+}
+
+.priority_1 {
+    background: #ffd7b5;
+}
+
+.priority_2 {
+    background: #ffb38a;
+}
+
+.priority_3 {
+    background: #ff9248;
+}
+
+.priority_4 {
+    background: #fba675;
+}
+
+.default {
+    border: 5px solid black;
+}
+
+.selected {
+    border: 5px solid blue;
+}
+
+.title {
+    color: rgba(36, 13, 25, 0.767);
+} 
