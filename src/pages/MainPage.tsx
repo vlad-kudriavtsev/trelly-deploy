@@ -14,7 +14,6 @@ export function MainPage() {
 
     return (
         <div className={styles.container}>
-            <h1>trelly </h1>
             <TasksList selectedTaskId={selectedTaskId} onSelect={handleSelect} />
             <TaskDetails taskId={selectedTaskId} boardId={boardId} />
         </div>
